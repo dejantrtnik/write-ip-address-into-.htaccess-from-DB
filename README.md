@@ -1,1 +1,1 @@
-# write-ip-address-into-.htaccess-from-DB
+# write ip address into .htaccess from DB
