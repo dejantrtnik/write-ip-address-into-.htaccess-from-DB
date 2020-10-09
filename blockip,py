@@ -22,7 +22,6 @@ RewriteCond %{REQUEST_FILENAME} !-f
 """)
 
 for row in result:
-    #'{} {}'.format(1, 2)
     ip = '{} {} {}'.format('Deny from', row[1], '\n')
     file.write(ip)
     #print(ip)
